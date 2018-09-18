@@ -8,9 +8,15 @@ const moduleObj = {
       test: /\.js$/,
       exclude: /node_modules/,
       loaders: ["babel-loader"],
-    }
+    },
+    {
+      test: /\.scss$/,
+      exclude: /node_modules/,
+      loaders: ['style-loader', 'css-loader', 'sass-loader'],
+    },
   ],
 };
+
 const client = {
   entry: {
     'client': './src/client/index.js',

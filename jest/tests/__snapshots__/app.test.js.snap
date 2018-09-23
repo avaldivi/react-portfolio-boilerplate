@@ -18,6 +18,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "Welcome to React Boilerplate App",
+      "className": "title",
     },
     "ref": null,
     "rendered": "Welcome to React Boilerplate App",
@@ -30,6 +31,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Welcome to React Boilerplate App",
+        "className": "title",
       },
       "ref": null,
       "rendered": "Welcome to React Boilerplate App",

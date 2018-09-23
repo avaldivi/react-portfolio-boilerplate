@@ -1,4 +1,4 @@
-import App from '../client/app'
+import App from '../../src/client/app'
 import React from 'react'
 import { shallow } from 'enzyme'
 
